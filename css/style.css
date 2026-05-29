@@ -1,0 +1,91 @@
+body { 
+    background-color: #F3E9DC;
+    font-family: Playfair Display, c;
+    color: #2B2B2B;
+
+}
+h1 {
+    color: #3B2A22;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #C08A4B;
+}
+nav a {
+    color: #3B2A22;
+}
+main {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+metodo-titulo {
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    color: #3B2A22;
+}
+.Precio {
+    display: inline-block;
+    background-color: #C08A4B;
+    color: #F3E9DC;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+    box-shadow: 0 3px 8px rgba(59, 42, 34, 0.2);
+}
+
+#reservas {
+    background-color: #F3E9DC;
+    border: 2px solid #C08A4B;
+    border-radius: 15px;
+    padding: 25px;
+    width: fit-content;
+    text-align: center;
+    margin: 30px auto;
+    box-shadow: 0 4px 12px rgba(59, 42, 34, 0.15);
+}
+
+#reservas p {
+    color: #3B2A22;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#contador-tazas {
+    background-color: #C08A4B;
+    color: #F3E9DC;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+#boton-reservar {
+    background-color: #3B2A22;
+    color: #F3E9DC;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#boton-reservar:hover {
+    background-color: #C08A4B;
+    color: #3B2A22;
+    transform: translateY(-2px);
+}
+
